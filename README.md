@@ -1,2 +1,3 @@
-# scss_summary
-scss 정리
+SCSS Layout에 대하여 정리 및 클론 코딩: Flexbox & Grid (updating...)
+
+
