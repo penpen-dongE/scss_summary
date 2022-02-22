@@ -1,6 +1,6 @@
-body {
+.father {
     display: flex;
-    height: 100vh
+    height: 80vh
     ;
     /* flex-direction: default=row */
     flex-direction: row;
@@ -9,12 +9,24 @@ body {
     justify-content: space-around;
     
     /* Cross Axis */
-    align-items: center;
+    /* align-items: center;*/
 }
 
-.box {
+.child {
     width: 100px;
     height: 100px;
     background: peru;
     color: white;
+}
+
+.child:nth-child(2) {
+    /* Cross Axis 기준 */
+    align-self: center;
+    
+    /* 위치 변경 */
+    order: 1;
+}
+
+.child:nth-child(3) {
+    align-self: flex-end;
 }
