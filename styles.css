@@ -1,32 +1,34 @@
 .father {
     display: flex;
-    height: 80vh
-    ;
+    flex-wrap: wrap;
+    
     /* flex-direction: default=row */
     flex-direction: row;
 
     /* Main Axis */
-    justify-content: space-around;
+    justify-content: space-between;
     
     /* Cross Axis */
     /* align-items: center;*/
 }
 
 .child {
-    width: 100px;
-    height: 100px;
+    flex-basis: 30%;
     background: peru;
     color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.child:nth-child(2) {
+.child:nth-child(4) {
+    margin-top: 10px;
+    
     /* Cross Axis 기준 */
-    align-self: center;
+    /* align-self: center; */
     
     /* 위치 변경 */
-    order: 1;
+    /* order: 1; */
 }
 
-.child:nth-child(3) {
-    align-self: flex-end;
-}

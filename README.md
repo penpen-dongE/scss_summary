@@ -14,3 +14,9 @@ https://cssgridgarden.com/#ko
 - wrap(same size), nowrap, reverse, align-content(line)
 - flex-grow(default:0), flex-shrink(default:1)
 - flex-basis : applies to the child / give the initial size / works main axis / could be width or height depending on the flex-direction
+
+220223
+- Grid 
+- grid-template-columns / grid-template-rows
+- column-gap / row-gap  || gap 
+- grid-template-area
