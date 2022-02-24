@@ -9,7 +9,7 @@ body {
     grid-template-rows: 100px 50px 300px;
     column-gap: 5px;
     row-gap: 10px;
-    */
+   
     grid-template-columns: auto 200px;
     grid-template-rows: 100px repeat(2, 200px) 100px;
     grid-template-areas:
@@ -17,7 +17,15 @@ body {
       "content content content nav"
       "content content content nav"
       "footer footer footer footer";
-  }
+    */
+    gap: 5px;
+    height: 50vh;
+    grid-template:
+      "header header header header" 1fr
+      "content content content nav" 2fr
+      "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr;
+  
+    }
 
   .header {
   background-color: #2ecc71;

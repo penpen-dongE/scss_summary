@@ -20,3 +20,8 @@ https://cssgridgarden.com/#ko
 - grid-template-columns / grid-template-rows
 - column-gap / row-gap  || gap 
 - grid-template-area
+
+220224
+- fr = fraction(available space)
+- grid-template 
+- place-item  : vertical horizontal
