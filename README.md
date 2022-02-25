@@ -25,3 +25,12 @@ https://cssgridgarden.com/#ko
 - fr = fraction(available space)
 - grid-template 
 - place-item  : vertical horizontal
+
+220225
+- place-content : vertical horizontal
+- place-self : 개별적으로 vertical horizontal
+- ** .item*20>{$}
+- Auto columns and rows : 크기 / grid-auto-flow : (방향, default=row)
+- min/max ,주 용례 => repeat(4, minmax(100px, 1fr))
+- auto-fit / auto-fill(dont have empty spaces) , repeat(auto-fit/auto-fill, minmax(100px, 1fr))
+- min-content / max-content
